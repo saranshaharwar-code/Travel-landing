@@ -41,7 +41,7 @@ You can deploy this page easily on:
 A modern, responsive **restaurant landing page** built with **HTML, CSS, and JavaScript**.  
 It showcases menu items, gallery, reservations, and contact details.  
 
-👉 **Live Demo:** [Click Here](https://saranshahwar-code.github.io/Travel-landing/)
+👉 **Live Demo:** [Click Here](https://saranshaharwar-code.github.io/Travel-landing/)
 
 ---
 
@@ -68,4 +68,5 @@ It showcases menu items, gallery, reservations, and contact details.
 
 ## 📸 Screenshot
 ![Travel Landing Preview](images/screenshorttravel.png)
+
 
