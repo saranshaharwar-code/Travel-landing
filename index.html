@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Discover Asteria — Travel Landing (Clean)</title>
+  <meta name="description" content="Clean, modern and responsive landing page template for a travel destination." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">A</div>
+        <div>
+          <div style="font-weight:800">Asteria Travel</div>
+          <div class="muted" style="font-size:13px">Discover. Breathe. Explore.</div>
+        </div>
+      </div>
+
+      <nav>
+        <button class="hamb" id="hamb">☰</button>
+        <ul id="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#features">Why Asteria</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#itinerary">Itinerary</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-ghost">Blog</button>
+        <button class="btn btn-primary">Book Trip</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-visual" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop" alt="Asteria coast">
+        <div style="position:relative;width:100%;padding:28px;">
+          <div class="hero-card" role="region" aria-label="Intro">
+            <div class="kicker">Island escape</div>
+            <h1>Find calm beaches, secret lagoons and local flavors</h1>
+            <p class="lead">Asteria blends gentle adventure with restorative downtime — curated stays, small groups, and sustainable experiences.</p>
+
+            <div class="hero-cta">
+              <div style="flex:1">
+                <div class="search">
+                  <input type="search" placeholder="Search experiences, e.g. snorkeling, yoga">
+                  <button class="btn btn-primary">Find trips</button>
+                </div>
+              </div>
+              <div style="align-self:center">
+                <button class="btn btn-ghost">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- minimal highlights -->
+      <div class="grid-3" id="features">
+        <div class="feature">
+          <div style="font-weight:800">Sustainable stays</div>
+          <h3 class="muted">Eco-conscious stays & local partnerships</h3>
+        </div>
+        <div class="feature">
+          <div style="font-weight:800">Small-group trips</div>
+          <h3 class="muted">Max 12 travellers — personal attention</h3>
+        </div>
+        <div class="feature">
+          <div style="font-weight:800">Flexible plans</div>
+          <h3 class="muted">Customize days, activities & pace</h3>
+        </div>
+      </div>
+
+      <!-- gallery + itinerary side-by-side on wide screens -->
+      <div style="display:grid;grid-template-columns:1fr 360px;gap:20px;margin-top:18px">
+        <div>
+          <h2 id="gallery">Gallery</h2>
+          <p class="muted">A peek at Asteria's highlights.</p>
+          <div class="gallery">
+            <img src="images/mountains.jpg" alt="mountains">
+            <img src="images/boat.jpg" alt="boat">
+            <img src="images/beach.jpg" alt="beach">
+</div>
+          </div>
+        </div>
+
+        <aside class="itinerary" id="itinerary">
+          <h3 style="margin-top:0">Sample 5-day plan</h3>
+          <div class="it-row"><div class="day">Day 1</div><div class="muted">Arrival, coastal walk, welcome dinner.</div></div>
+          <div class="it-row"><div class="day">Day 2</div><div class="muted">Lagoon boat & snorkeling.</div></div>
+          <div class="it-row"><div class="day">Day 3</div><div class="muted">Cliff sunrise hike & cooking class.</div></div>
+          <div class="it-row"><div class="day">Day 4</div><div class="muted">Free day: beach, spa or surf.</div></div>
+          <div class="it-row"><div class="day">Day 5</div><div class="muted">Brunch & departure.</div></div>
+          <div style="margin-top:12px"><button class="btn btn-primary">Customize trip</button></div>
+        </aside>
+      </div>
+
+      <section style="margin-top:22px">
+        <h2>Traveler stories</h2>
+        <div class="testimonials">
+          <div class="tcard"><div style="font-weight:700">Arjun — India</div><div class="muted" style="margin-top:6px">"Secret coves and great food — relaxed and fun."</div></div>
+          <div class="tcard"><div style="font-weight:700">Lina — Spain</div><div class="muted" style="margin-top:6px">"Perfect mix of activities and downtime."</div></div>
+        </div>
+      </section>
+
+    </section>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>
+          <div style="font-weight:800">Asteria Travel</div>
+          <div class="muted">© 2025 Asteria Travel</div>
+        </div>
+        <div class="muted">Made with ♥ — simple, clean and responsive.</div>
+      </div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
